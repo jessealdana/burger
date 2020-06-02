@@ -2,9 +2,11 @@
   "name": "burger",
   "version": "1.0.0",
   "description": "app for recording burger appreciation",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run kill && nodemon server.js",
+    "kill": "kill-port 8080"
   },
   "repository": {
     "type": "git",
@@ -22,6 +24,8 @@
   "dependencies": {
     "express": "^4.17.1",
     "express-handlebars": "^4.0.4",
-    "mysql": "^2.18.1"
+    "kill-port": "^1.6.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.4"
   }
 }
