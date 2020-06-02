@@ -1,7 +1,42 @@
+body {
+  background-color: rgb(185, 177, 166);
+}
+h1 {
+  text-align: center;
+  background-color: rgb(66, 52, 35);
+  color: whitesmoke;
+  font-family: 'Anton', sans-serif;
+}
+
+hr {
+  background-color: green;
+  height: 3px;
+}
+.container {
+  background-color: rgb(105, 78, 46);
+  padding-top: 20px;
+}
+
+h2 {
+  color: whitesmoke;
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+}
+
 li {
     padding: 5px;
     margin: 5px;
-    background: #faebd7;
+    background: #eec084;
+    font-family: 'Anton', sans-serif;
+  }
+
+  .container2 {
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+  }
+
+  h3 {
+    font-family: 'Anton', sans-serif;
   }
   
   .label {
