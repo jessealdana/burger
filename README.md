@@ -20,7 +20,7 @@
 
  This app is run from the Heroku link: 
 
-https://git.heroku.com/salty-reaches-02996.git
+https://shrouded-forest-02182.herokuapp.com/
 
 
  ## Usage
