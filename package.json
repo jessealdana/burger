@@ -1,29 +1,27 @@
 {
   "name": "burger",
   "version": "1.0.0",
-  "description": "app for recording burger appreciation",
+  "description": "![Mozilla Add-on](https://img.shields.io/amo/v/blue?color=blue&label=burger%20Compendium&logoColor=white)",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
-
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jessealdana/burger.git"
   },
-  "keywords": [
-    "burger"
-  ],
-  "author": "Jesse Aldana",
+  "dependencies": {
+      "express": "^4.17.1",
+      "express-handlebars": "^4.0.4",
+      "mysql": "^2.18.1"
+    
+  },
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jessealdana/burger/issues"
   },
-  "homepage": "https://github.com/jessealdana/burger#readme",
-  "dependencies": {
-    "express": "^4.17.1",
-    "express-handlebars": "^4.0.4",
-    "mysql": "^2.18.1"
-  }
+  "homepage": "https://github.com/jessealdana/burger#readme"
 }
